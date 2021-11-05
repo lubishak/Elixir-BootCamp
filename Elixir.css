@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #FFFFFF;
+    padding: 2rem;
+    margin: 1rem;
+    border: 2px solid red;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.my-list{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+}
+
